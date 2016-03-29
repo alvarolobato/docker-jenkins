@@ -35,7 +35,7 @@ RUN gpg --keyserver pool.sks-keyservers.net --recv-keys B42F6819007F00F88E364FD4
 
 COPY init.groovy /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy
 
-ENV VERSION 1.642.2
+ENV VERSION 1.642.2.1
 ENV SHA e72e06e64d23eefb13090459f517b0697aad7be0
 #ARG VERSION
 #ARG SHA
